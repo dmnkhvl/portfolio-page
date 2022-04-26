@@ -53,7 +53,7 @@ h3{
 .profile-pic{
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 5px solid var(--primary-color);
+    /*border: 5px solid var(--primary-color);*/
 }
 
 .profile-section{
