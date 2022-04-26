@@ -1,18 +1,24 @@
+:root {
+    --primary-color: black;
+    --secondary-color: #35E68D;
+    --white-color: white;
+}
 *{
     /*border: 1px solid coral;*/
     font-family: 'Roboto Mono', monospace;
 }
 body{
+    color: var(--primary-color);
     width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     text-align: center;
-    background-color: #EEEEEE;
+    background-color: var(--white-color);
 }
 
 main{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -29,6 +35,11 @@ a{
 h2{
     font-size: 15px;
     margin-bottom: 30px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2px;
+    width: 100px;
+    text-align: center;
 }
 
 h3{
@@ -42,6 +53,7 @@ h3{
 .profile-pic{
     margin-bottom: 20px;
     border-radius: 50%;
+    border: 5px solid var(--primary-color);
 }
 
 .profile-section{
@@ -55,10 +67,10 @@ h3{
 }
 
 #name{
-    color: white;
+    color: var(--secondary-color);
     text-transform: uppercase;
     font-size: 20px;
-    background-color: black;
+    background-color: var(--primary-color);
     width: 25%;
     margin: auto;
     padding: 5px;
